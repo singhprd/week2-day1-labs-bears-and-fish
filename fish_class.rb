@@ -1,9 +1,9 @@
 class Fish 
 
-  def initialize( var1 )
-      @var1 = var1
+attr_accessor(:name)
+  def initialize( name )
+        @name = name
   end
-
 
 
 end
